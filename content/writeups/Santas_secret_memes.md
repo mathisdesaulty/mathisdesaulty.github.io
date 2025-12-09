@@ -1,4 +1,4 @@
-+++
+---
 date = '2025-12-09T21:58:22+01:00'
 draft = false
 title = 'Santas_secret_memes'
@@ -8,7 +8,7 @@ draft: false
 categories: ["misc"]
 tags: ["easy","forensic"]
 description: "Challenge root-me.org pour le XMAS 2025"
-+++
+---
 
 # 1-Prendre les informations
 Nous avons un fichier **ZIP** contenant **des images**. 
