@@ -1,7 +1,7 @@
 baseURL = 'https://mathisdesaulty.github.io/'
 languageCode = 'fr'
 title = 'Mathis Desaulty'
-theme = 'PaperMod'
+theme = 'terminal'
 
 [params]
   description = "Blog personnel, CTF write-ups et portfolio"
