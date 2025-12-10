@@ -1,31 +1,69 @@
-baseURL = 'https://mathisdesaulty.github.io/ctf-writeups/'
+baseURL = 'https://mathisdesaulty.github.io/'
 languageCode = 'fr'
-title = 'CTF Write-ups'
-theme = 'terminal'
+title = 'Mathis Desaulty'
+theme = 'PaperMod'
 
 [params]
-  contentTypeName = "writeups"
-  themeColor = "green"
-  showMenuItems = 3
-  fullWidthTheme = false
-  centerTheme = true
-  
-[params.logo]
-  logoText = "$ ctf-writeups"
-  logoHomeLink = "/"
+  description = "Blog personnel, CTF write-ups et portfolio"
+  author = "Mathis Desaulty"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  ShowToc = true
+  TocOpen = true
 
-[[params.social]]
+[params.homeInfoParams]
+  Title = "👋 Bienvenue !"
+  Content = """
+  Je suis Mathis, passionné de cybersécurité et développement.
+  
+  Explorez mes write-ups CTF, articles de blog et projets !
+  """
+
+[[params.socialIcons]]
   name = "github"
   url = "https://github.com/mathisdesaulty"
 
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/mathis-desaulty-7277b6263/"  
+
+# Menu principal
 [menu]
   [[menu.main]]
-    identifier = "writeups"
-    name = "Write-ups"
-    url = "/writeups/"
+    name = "🏠 Accueil"
+    url = "/"
     weight = 1
+  
   [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags/"
+    name = "🚩 Write-ups"
+    url = "/writeups/"
     weight = 2
+  
+  [[menu.main]]
+    name = "📝 Blog"
+    url = "/blog/"
+    weight = 3
+  
+  [[menu.main]]
+    name = "💼 Portfolio"
+    url = "/portfolio/"
+    weight = 4
+  
+  [[menu.main]]
+    name = "🏷️ Tags"
+    url = "/tags/"
+    weight = 5
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[markup]
+  [markup.highlight]
+    style = "monokai"
+    lineNos = true
+    lineNumbersInTable = false
