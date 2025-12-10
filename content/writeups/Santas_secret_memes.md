@@ -1,3 +1,12 @@
+---
+title: "Nom de votre challenge"
+date: 2024-12-10T20:00:00+01:00
+draft: false
+categories: ["Web"]
+tags: ["SQLi", "Easy"]
+description: "Description courte du challenge"
+---
+
 # 1-Prendre les informations
 Nous avons un fichier **ZIP** contenant **des images**. 
 
