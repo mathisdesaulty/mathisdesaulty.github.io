@@ -4,59 +4,16 @@ title = 'Mathis Desaulty'
 theme = 'terminal'
 
 [params]
-  # Centrer le contenu
-  centerTheme = true
-  
-  # Largeur pleine (optionnel, essayez les deux)
-  fullWidthTheme = false
-  
-  # Couleur du thème (green, orange, red, blue, pink)
-  themeColor = "green"
-  
-  # Nombre d'items dans le menu
-  showMenuItems = 5
-  
-  # Type de contenu
-  contentTypeName = "posts"
-  
-  # Logo personnalisé
-  [params.logo]
-    logoText = "mathis@desaulty:~$"
-    logoHomeLink = "/"
-
-# Menu
-[[menu.main]]
-  identifier = "writeups"
-  name = "write-ups"
-  url = "/writeups/"
-  weight = 1
-
-[[menu.main]]
-  identifier = "blog"
-  name = "blog"
-  url = "/blog/"
-  weight = 2
-
-[[menu.main]]
-  identifier = "portfolio"
-  name = "portfolio"
-  url = "/portfolio/"
-  weight = 3
-
-[[menu.main]]
-  identifier = "tags"
-  name = "tags"
-  url = "/tags/"
-  weight = 4
-
-[taxonomies]
-  category = "categories"
-  tag = "tags"
-
-[markup]
-  [markup.highlight]
-    style = "monokai"
-    lineNos = true
+  description = "Blog personnel, CTF write-ups et portfolio"
+  author = "Mathis Desaulty"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  ShowToc = true
+  TocOpen = true
 
 [params.homeInfoParams]
   Title = "👋 Bienvenue !"
