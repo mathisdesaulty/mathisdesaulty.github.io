@@ -23,15 +23,15 @@ cat *.log | grep "backupfiler" > all_backup.log
 grep -Ei -C 3 --color=always "scp|sftp|ftp|rsync|ncat" all_backup.log
 ```
 
-![wc](image-8.png)
+![wc](/images/writeups/image-8.png)
 
 Dans toutes ces sorties, nous avons beaucoup de lignes inutiles, mais une ressort particulièrement: 
 
-![scp](image-9.png)
+![scp](/images/writeups/image-9.png)
 
 Nous pouvons même retrouver l'entièreté de l'exfiltration:
 
-![exfiltration](image-10.png)
+![exfiltration](/images/writeups/image-10.png)
 
 Avec les commandes:
 
@@ -49,7 +49,7 @@ Nous devons ici trouver une connexion depuis une machine de l'infra vers le serv
 Depuis l'exfiltration du dernier challenge, nous avons l'information d'une adresse IP appartenant à l'attaquant.
 
 On filtre seulement par commandes executés, puis on en sort commande correspondant à l'IP suspecte:
-![exec_ssh](image-11.png)
+![exec_ssh](/images/writeups/image-11.png)
 
 On trouve alors cette commande:
 
