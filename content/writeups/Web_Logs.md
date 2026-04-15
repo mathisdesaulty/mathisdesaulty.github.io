@@ -1,5 +1,5 @@
 +++
-date = '2026-04-15T10:50:30+01:00'
+date = '2026-04-15T11:33:31+02:00'
 title = 'Web Logs'
 draft = false
 categories = ["Forensic"]
