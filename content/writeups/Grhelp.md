@@ -4,7 +4,7 @@ title = 'GrHelp'
 draft = false
 categories = ["Forensic"]
 tags = ["Medium"]
-description = "Challenge de Forensic du FCSC 2026"
+description = "Challenge de Forensic du FCSC 2026. Vous avez les logs auditd d'une infrastructure qui a été compromise."
 +++
 
 

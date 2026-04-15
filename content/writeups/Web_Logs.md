@@ -4,7 +4,7 @@ title = 'Web Logs'
 draft = false
 categories = ["Forensic"]
 tags = ["Medium"]
-description = "Challenge de Forensic du FCSC 2026"
+description = "Challenge de Forensic du FCSC 2026. Vous avez à disposition les logs d'un serveur web exposé sur Internet. Du fait de son exposition publique, des tentatives d'attaques variées existent dans les logs."
 +++
 
 # Web Logs
