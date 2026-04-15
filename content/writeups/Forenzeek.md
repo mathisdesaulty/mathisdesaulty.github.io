@@ -10,7 +10,7 @@ description = "Challenge de Forensic du FCSC 2026"
 # Forenzeek
 
 Pour ce challenge, nous avons accès à des logs réseau collectés à l'aide de [Zeek](https://docs.zeek.org/en/master/scripts/base/protocols/conn/main.zeek.html#type-Conn::Info) desquels nous n'avons que quelques informations: 
-![présentation csv](image.png)
+![présentation csv](/images/writeups/image.png)
 - Le timestamp
 - Le UID
 - Les IPs d'origine et de destination
